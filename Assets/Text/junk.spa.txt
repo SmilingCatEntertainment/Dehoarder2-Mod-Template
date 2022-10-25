@@ -1,0 +1,4 @@
+Junk.ToyTrain_A_01=Tren de Juguete
+Junk.ToyTrain_A_01.flavor=Es un toot para jugar!
+-- This next one can be omitted because it is identical to the default language
+-- Interactions.Toot=Toot!

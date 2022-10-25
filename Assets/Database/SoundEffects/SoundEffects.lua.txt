@@ -1,0 +1,8 @@
+db.SoundEffect(
+	mk.SoundEffect("TrainWhistle")
+	.SoundId("D2ModTemplate/AudioClips/TrainWhistle.wav")
+	.SpatialBlend(0)
+	.Volume(1)
+	.MinPitch(0.95)
+	.MaxPitch(1.05)
+)

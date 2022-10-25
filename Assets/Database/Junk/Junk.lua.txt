@@ -1,0 +1,35 @@
+db.JunkTemplate(
+	mk.JunkTemplate("ToyTrain_A_01")
+	.ControllerId("Dehoarder2/Controllers/MasterJunk.prefab")
+	.JunkCategory("Toy")
+	.HealthHazard(1)
+	.FireHazard(3)
+	.Clutter(3)
+	.Sentiment(8)
+	.SpacingHeight(0.129)
+	.SpawnRadius(0.11)
+	.Mass(4.0)
+	.Appearance(
+		mk.AvatarAppearance()
+		.AvatarId("D2ModTemplate/Avatars/ToyTrain_A_01.prefab")
+	)
+	.InteractionInfo(
+		mk.InteractionInfo()
+		.TitleKey("Junk.ToyTrain_A_01")
+		.FlavorTextKey("Junk.ToyTrain_A_01.flavor")
+		.Modes(
+			mk.ModeInteractions(InteractionMode.Interact)
+			.Slots(
+				mk.InteractionSlot(ActionSlot.B, "Interactions.Toot", "ToyTrain.Toot"),
+				mk.InteractionSlot(ActionSlot.C, "Interactions.PickUp")
+			),
+			mk.ModeInteractions(InteractionMode.Gather)
+			.Slots(
+				mk.InteractionSlot(ActionSlot.C, "Interactions.PickUp")
+			)
+			.AllowedOverrides(
+				mk.TargetInteraction("Interactions.Dispose")
+			)
+		)
+	)
+)

@@ -1,0 +1,16 @@
+{
+	"name": "D2ModTemplate",
+	"displayName": "Dehoarder 2 Mod Template",
+	"version": "1.0.0.0",
+	"scriptVersion": "1.0",
+	"description": "A Mod Template for Dehoarder 2",
+	"author": "Smiling Cat Entertainment",
+	"contact": "customercare@smilingcatentertainment.com",
+	"scriptingVersion": 1,
+	"dependencies": [
+		{
+			"name": "Dehoarder2",
+			"version": ">=1.0"
+		}
+	]
+}

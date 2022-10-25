@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - ItemReceiver
+  - Water
+  - UI
+  - Vermin
+  - VerminTrigger
+  - Junk
+  - Borders
+  - Furnishing
+  - Player
+  - Room
+  - Terrain
+  - JunkSpawnExclude
+  - Ceiling
+  - PlayerOnlyBorder
+  - NonPlayerBorder
+  - Projectile
+  - AreaBorder
+  - InteractOnly
+  - TendablePlants
+  - PlacementTester
+  - Floor
+  - 
+  - RenderedPlayer
+  - ToolOverlay
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

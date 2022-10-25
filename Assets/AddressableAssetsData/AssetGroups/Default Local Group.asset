@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 16b8237b197bed94ab8666638629a53f
+  m_SerializeEntries:
+  - m_GUID: 11f9d90152a090a47b9b7dffed632cd0
+    m_Address: Avatars/ToyTrain_A_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 7fd24e30a1bd74943b1f255606244eba
+    m_Address: ModuleInfo.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 7317f4c1c0fe4224699c7642e860e6e1
+    m_Address: RegisterContent.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 00db13f74dc800c4a94150d481f5a408
+    m_Address: StoryEvents/PlaySound.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 3100f76cc1141f147821f512fa7d9e89
+    m_Address: Database/Junk/Junk.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 035c11e1234f59948b9b7202eb3ac868
+    m_Address: Database/Events/Events.ToyTrain.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 84da927d4dc986e49855b6e93d42b3dc
+    m_Address: Database/SoundEffects/SoundEffects.lua
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  - m_GUID: 0857ffdf8a2d617489de9f22f7807501
+    m_Address: AudioClips/TrainWhistle.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - public
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3bce2a2dfac51e746b63b437533314df, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ac9a1a71890c33a41b37b258d879c301, type: 2}
+    - {fileID: 11400000, guid: 026b48e19e1beaf499893a72a9f5df6c, type: 2}

@@ -1,0 +1,8 @@
+db.GameEvent(
+	mk.GameEvent("ToyTrain.Toot")
+	.Script("D2ModTemplate/StoryEvents/PlaySound.lua")
+	.Parameters(
+		mk.Variables()
+		.Key("SoundId", "TrainWhistle")
+	)
+);
